@@ -174,17 +174,3 @@ pnpm run build
 ```
 
 All work is conducted openly on GitHub. Whether you are a core team member or an external contributor, all Pull Requests must go through the same review process.
-
-## Support
-
-1. wechat and group，my wechat is lanxingme，welcome to join the wechat group.
- <p align="center" style="display:flex; justify-content: flex-start;" >
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/mywx.png" width=200/>
-    <img src="https://gh-proxy.org/https://github.com/Sjj1024/PakePlus/blob/main/docs/static/imgs/wxcode.jpg" width=200/>
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/qqpp3.jpg" width=200/>
- </p>
-
-2. 💖If PacBao has brought joy to your life, feel free to support it.
- <p align="center" style="display:flex; justify-content: flex-start;">
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/sponsor.webp" width=620/>
- </p>
