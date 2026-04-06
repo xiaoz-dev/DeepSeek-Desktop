@@ -1,176 +1,64 @@
-<h4 align="right"> 
-<span href=".README.md">English</span> 
-<a href="https://ppofficial.netlify.app/zh/" 
-style="margin: 0 10px;" >简体中文</a> 
-<a href="https://github.com/Sjj1024/PabBao/discussions/108">日本语</a>
-</h4>  
-<p align="center">
-    <img src="https://pakeplus.com/pplogo.png" width=300/>
-</p>
-<h1 align="center">PacBao｜PakePlus</h1>  
-<p align="center"><strong>Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes</strong>
-</p>
+###  DeepSeek Desktop for Windows (PakePlus Build)
 
-<p align="center">
-    <a href="https://github.com/Sjj1024/PakePlus/releases"><img src="https://img.shields.io/github/v/release/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Release"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/stargazers"><img src="https://img.shields.io/github/stars/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Stars"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/stargazers"><img src="https://img.shields.io/github/forks/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Forks"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/Sjj1024/PakePlus/build.yml?style=flat-square&logo=github" alt="Build"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Sjj1024/PakePlus?style=flat-square&logo=github" alt="License"></a>
-    <a href="https://app.netlify.com/projects/pakeplus/deploys"><img src="https://api.netlify.com/api/v1/badges/f8454a03-8724-4797-9fe4-e6c51dd90e3a/deploy-status" alt="License"></a>
-</p>
+欢迎来到 DeepSeek 桌面版 Windows 客户端的发布页面！
 
-<div align="left">PacBao supports Mac, Windows, Linux, and Android & iOS. There’s no need to install complex dependencies locally, PacBao is only about 10MB in size. For the latest version, please see the <a href="[#popular-packages](https://github.com/Sjj1024/pakeplus/releases)">release page</a>. or visit: <a href="https://pakeplus.pages.dev" target="_blank">PacBao Web</a>. 
-Document: <a href="https://pakeplus.com/guide/" target="_blank">PacBao Guide</a></div>  
-<br>
+本项目利用 **PakePlus** 技术，将 DeepSeek 强大的 AI 对话能力“打包”成了一个独立的 Windows 应用程序。让您无需打开浏览器，即可在独立的窗口中享受流畅、专注的 AI 交互体验。
 
-> Due to individuals using this project to package illegal software, which violates its intended purpose, the front-end code will no longer be open-source. If such behavior is found again, all code in this project will cease to be open-source. Please use this software legally and responsibly, or bear the consequences.
+---
 
-https://github.com/user-attachments/assets/b88bf541-0b26-4020-9eec-da79e1734fc9
+### ️ 重要说明：关于安全与官方服务
 
-<h1 align="center">Sponsors</h1>
+> **请在使用前阅读：**
+>
+> 1.  **本质说明**：本软件**本质上是一个封装了 DeepSeek 官方网页的浏览器窗口**。它不包含任何额外的后端服务，也没有修改 DeepSeek 的核心功能。
+> 2.  **官方响应**：本软件完全依赖 DeepSeek 官方服务器。如果您遇到“无响应”、“无法生成内容”或“报错”等情况，**通常是因为官方网页版服务波动或需要登录验证**。
+> 3.  **建议**：如遇功能异常，请优先尝试在浏览器中访问 [DeepSeek 官网](https://www.deepseek.com) 确认服务状态。
 
-<p>
-PakePlus is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider sponsoring PakePlus's development.
-</p>
+---
 
-<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
-    <tr>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://files.pakeplus.com/finevoice.png" width="100"/>
-            <h3 style="margin: 0"><a href="https://finevoice.ai/?ref=pakeplus" target="_blank">FineVoice</a></h3>
-            <p style="margin: 0">Create Every Voice You Imagine</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/54536011?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://tauri.app/" target="_blank">Tauri</a></h3>
-            <p style="margin: 0">Create cross-platform applications</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/126759922?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://cursor.com/agents" target="_blank">Cursor</a></h3>
-            <p style="margin: 0">Cursor is the best way to code with AI.</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/878437?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://www.jetbrains.com/idea/" target="_blank">JetBrains</a></h3>
-            <p style="margin: 0">The Leading IDE for Professional Development</p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/24789812?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://bit.dev/?ref=pakeplus" target="_blank">Bit</a></h3>
-            <p style="margin: 0">AI-powered development workspaces</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/17219288?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://www.prisma.io/?ref=pakeplus" target="_blank">Prisma</a></h3>
-            <p style="margin: 0">Prisma makes working with data easy</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/314135?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://www.cloudflare.com/?ref=pakeplus" target="_blank">Cloudflare</a></h3>
-            <p style="margin: 0">Build and deploy AI Agents on Cloudflare</p>
-        </td>
-    </tr>
-</table>
+### ️ 安全性声明
 
-## Features
+我们非常重视您的数据安全，特此说明：
 
--   💎 Approximately 20 times smaller than Electron (less than 5MB!) and 10 times faster.
--   🚀 Built with Rust Tauri, PacBao is lighter and faster than JavaScript-based frameworks.
--   📦 Comes with rich built-in features — supports shortcuts, immersive windows, and minimalist customization.
--   👻 PacBao is a minimalist tool that replaces traditional packaging with Tauri for cross-platform desktop apps.
--   📲 Uses native frameworks to package Android and iOS apps — smaller and faster than Tauri2.
--   🤗 Easy to use — just one GitHub Token is all you need to get a desktop app.
--   🌹 No need to install complex dependencies locally — use GitHub Actions for cloud-based automatic packaging.
--   🧑‍🤝‍🧑 Internationalization support — automatically follows your system language.
--   💡 Supports custom JavaScript injection — write your own JS to inject into the page.
--   🎨 Beautiful and user-friendly UI — better experience for beginners, supports Chinese names for packaging.
--   📡 Usable directly via the web, but the client offers stronger functionality and is recommended.
--   🔐 Data security — your token is stored only locally, and your project stays safely in your own Git repo.
--   🍔 Supports local packaging and does not require installation of any dependent environments. Local packaging only takes 30 seconds
--   🥥 It's okay without Github Token, local packaging is simple and convenient, and no Token is needed
--   ⚔️ Support calling system level APIs in JS scripts, such as downloading files/executing commands/opening new windows, etc
--   🍀 Supports static file packaging — drop in a compiled dist folder or index.html from Vue/React to create a client app.
--   🐞 Debug mode supported — find and eliminate bugs during preview or release.
--   💬 If you run into any issues, feel free to join our technical community for help.
+- **零风险封装**：本应用仅仅是将网页“套壳”为软件，**没有任何恶意代码**。
+- **数据透明**：您的所有对话数据直接传输至 DeepSeek 官方服务器，本软件**不会**收集、存储或上传您的任何个人隐私或对话记录。
+- **开源构建**：基于 PakePlus (Rust + Tauri) 构建，利用系统原生 WebView，避免了传统 Electron 应用的臃肿与潜在风险。
 
-## Use Cases
+---
 
--   Have a website? Instantly turn it into a app and elevate its appearance.
--   Have a Vue/React project and don’t want to buy a server? Package it as a desktop app.
--   Want your Cocos game to run as a cross-platform client? No problem.
--   Need to build your Unity project as a cross-platform client? Also no problem.
--   Hide your website address from casual sharing or bots scraping your content.
--   For internal company platforms — restrict access to your site via a dedicated client only.
--   Turn any website into your custom client — inject JS for automation and custom features.
--   Annoyed by website ads? Hide them with powerful JS.
--   Want to use Tauri2 but the environment is too heavy? Use PacBao instead!
+###  功能特性
 
-## Getting Started
+- **️ 独立窗口体验**：告别浏览器繁杂的标签页，让 AI 助手在独立窗口中随时待命。
+- ** 极致轻量**：得益于 Tauri 架构，安装包体积极小，内存占用远低于传统浏览器。
+- ** 系统托盘支持**：支持最小化至托盘，方便随时唤起，不打断您的工作流。
+- ** 沉浸式体验**：去除了浏览器地址栏等冗余元素，提供更纯净的对话界面。
 
-1. Download the app from the release page：https://github.com/Sjj1024/PakePlus/releases,  
-   double-click to install, and run the app. or visit web:
+---
 
-<a href="https://pakeplus.pages.dev" target="_blank">PacBao Web</a>
+###  安装与使用
 
-2. Configure GitHub token or use local packaging, create a new project, and set up the configurations. get token guide. (When using this software, please comply with relevant laws and regulations. If you use GitHub token to use this project, it will automatically star the project and the compilation results will be counted for success or failure to improve the project and obtain feedback. Packaging is for personal use only and should not be disseminated or used for commercial purposes. The packaged resources will be stored in your own Github open source repository and can be viewed by anyone. Therefore, please strictly follow the Github usage guidelines, otherwise you will be responsible for the consequences)
+1.  **下载**：点击本页面下方的 `.exe` 安装包进行下载。
+2.  **安装**：双击运行安装包，按照提示完成安装。
+3.  **登录**：首次打开软件时，您可能需要扫码或输入密码登录您的 DeepSeek 账号（与网页版登录方式一致）。
+4.  **开始使用**：登录成功后，即可像在浏览器中一样开始对话。
 
-<a href="https://sjj1024.github.io/PakePlus/index_en.html">English</a> <a href="https://PakePlus.com/zh/guide/token.html" style="margin: 0 50px;">简体中文</a><a href="https://sjj1024.github.io/PakePlus/index_ja.html">日本语</a>
+---
 
-```
-Explanation of Github Token permissions:
-1. For the beta version, token permissions required:
-All repositories: Fork an original template repository
-Actions: Manage GitHub actions
-Administration: Fork and manage files in the repository
-Contents: Add, delete, modify, and find repository contents
-Issues: Submit issues to PacBao
+### ️ 常见问题
 
-1. For the classic version, token permissions required:
-repo: Fork and manage template code
-workflow: Compile and release your software
-```
+**Q: 为什么点击发送后没有反应？**
+A: 请检查您的网络连接，或者软件是否提示需要重新登录。由于这是网页封装版，网络波动可能导致加载失败，请刷新页面或重启软件。
 
-3. You can preview the app in a new window and click the publish button to package the app.
-4. You can download the app from the release page.
+**Q: 这个软件安全吗？**
+A: 非常安全。它只是一个“浏览器”，所有的数据处理都由 DeepSeek 官方负责。
 
-## FAQ
+**Q: 如何自定义图标或功能？**
+A: 您可以访问 [PakePlus](https://github.com/wanghaisheng/pake-plus) 项目，自行打包个性化的网页应用。
 
-1. Mac users may see an “App is damaged” warning on installation. click cancel and Run the following command, then reopen the app:（This is because the application requires an official signature to avoid the prompt of "The application is damaged" popping up after installation. However, the cost of the official signature is $99 per year... Therefore, it is necessary to manually bypass the signature to use it normally）
+---
 
-```sh
-sudo xattr -r -d com.apple.quarantine /Applications/PacBao.app
-```
+###  许可证
 
-1. When you package the app, Mac users may see an “App is damaged” warning on installation. click cancel and Run the following command, then reopen the app:
+MIT License
 
-```sh
-sudo xattr -r -d com.apple.quarantine /Applications/YourAppName.app
-```
-
-3. If you encounter any issues while using the program, please download the latest version, as versions developed before 2025 were based on Tauri v1.0. In 2025, Tauri was upgraded to v2.0. If the latest version still has issues, please submit an issue with detailed information so that we can update and resolve it more quickly.
-
-4. After you add the GitHub Token, PacBao will fork a PacBao repository into your own repository. All your future projects will rely on this repository for creation and compilation, so please do not delete your PacBao repository.
-
-## Custom Development
-
-If you want to Contribution PacBao, ensure your environment is prepared beforehand. Make sure Rust `>=1.63` and Node `>=16` (e.g., `16.18.1`) are installed on your computer. For installation guidance, please refer to the [Tauri Documentation](https://tauri.app/v1/guides/getting-started/prerequisites).
-
-If you’re unfamiliar with these, it’s best to try the one-click packaging tool above.
-
-```sh
-# Install dependencies
-pnpm i
-
-# Local development [Right-click to open debug mode.]
-pnpm run dev
-
-# Package the app
-pnpm run build
-
-```
-
-All work is conducted openly on GitHub. Whether you are a core team member or an external contributor, all Pull Requests must go through the same review process.
+*祝您的 AI 探索之旅愉快！*
